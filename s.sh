@@ -1,0 +1,12 @@
+python3 train.py \
+	--resume weights/fmnist_fc_conv_l10_rebalance_no_norm_best.pth.tar \
+	--epochs 60 --batch-size 512 --seed 42 \
+	--model_type fc_conv --dataset_type fmnist --latent_space_size 10 \
+	--do_augs False --split_filter 5 \
+	--lr 1e-3 --m1 50 --m2 100 \
+	--optimizer adam \
+	--do_running_mean False --img_loss_weight 1.0 --kl_loss_weight 1.0 \
+	--image_loss_type bce --ssim_window_size 11 \
+	--print-freq 10 \
+	--lognumber fmnist_resume_test \
+	--tensorboard True --tensorboard_images True \
