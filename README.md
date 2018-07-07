@@ -205,3 +205,4 @@ Excluded from the Dockerfile because of this conflict (sometimes occurs, sometim
 - (RU) A cool post series on habr about auto-encoders https://habr.com/post/331382/
 - (EN) Converting a FC layer into a conv layer http://cs231n.github.io/convolutional-networks/#convert
 - (EN) A VAE post by Fchollet https://blog.keras.io/building-autoencoders-in-keras.html
+- (EN) Why VAEs are not used on larger datasets https://www.quora.com/Why-is-there-no-work-of-variational-auto-encoder-on-larger-data-sets-like-CIFAR-or-ImageNet
