@@ -196,3 +196,12 @@ jupyter contrib nbextension install --system
 Sometims there is a `html5lib` conflict.
 Excluded from the Dockerfile because of this conflict (sometimes occurs, sometimes not).
 ![](extensions.png)
+
+# Further reading
+
+- (EN) A small intuitive intro (super super cool and intuitive)  https://towardsdatascience.com/intuitively-understanding-variational-autoencoders-1bfe67eb5daf
+- (EN) KL divergence explained https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained
+- (EN) A more formal write-up http://arxiv.org/abs/1606.05908
+- (RU) A cool post series on habr about auto-encoders https://habr.com/post/331382/
+- (EN) Converting a FC layer into a conv layer http://cs231n.github.io/convolutional-networks/#convert
+- (EN) A VAE post by Fchollet https://blog.keras.io/building-autoencoders-in-keras.html
